@@ -1,0 +1,24 @@
+$colorVar: blue;
+
+h1 {
+  color: $colorVar;
+}
+
+h2 {
+  color: $colorVar;
+}
+
+@mixin soft-border($border-radius-var) {
+  border: 1px solid #ccc;
+  border-radius: $border-radius-var;
+  padding: 10px;
+}
+
+.box {
+  @include soft-border(5px);
+}
+
+.modern-box {
+  @include soft-border(10px);
+  //..
+}
