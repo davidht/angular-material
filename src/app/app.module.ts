@@ -20,6 +20,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { MyAddressComponent } from './my-address/my-address.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
