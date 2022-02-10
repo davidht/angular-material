@@ -1,11 +1,9 @@
 <hello name="{{ name }}"></hello>
-<p>Start editing to see some magic happen :)</p>
-
 <div class="content" role="main">
-  <H1>Hello Kitty</H1>
-  <h2>Heading 222</h2>
-  <button mat-button color="primary">Primary</button>
-  <button mat-stroked-button color="accent">Accent</button>
+  <button mat-button routerLink="/dashboard" color="primary">Dashboard</button>
+  <button mat-stroked-button color="accent" routerLink="address">
+    Address
+  </button>
   <button mat-icon-button>
     <mat-icon aria-label="Example icon-button with a heart icon"
       >favorite</mat-icon
@@ -14,10 +12,8 @@
 
   <mat-slider min="1" max="100" step="1" value="50"></mat-slider>
 
-  <app-my-address></app-my-address>
+  <router-outlet></router-outlet>
 
   <!-- Footer -->
   <footer>Love Angular?&nbsp;</footer>
 </div>
-
-<router-outlet></router-outlet>

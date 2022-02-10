@@ -19,7 +19,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
+
 import { MyAddressComponent } from './my-address/my-address.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   imports: [
@@ -38,7 +40,12 @@ import { MyAddressComponent } from './my-address/my-address.component';
     MatSliderModule,
     MatCardModule,
   ],
-  declarations: [AppComponent, HelloComponent, MyAddressComponent],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    MyAddressComponent,
+    DashboardComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -4,6 +4,11 @@
 
 https://material.angular.io/guide/getting-started
 
+TODO:
+https://www.digitalocean.com/community/tutorials/angular-flex-layout
+https://tburleson-layouts-demos.firebaseapp.com/#/docs
+https://zoaibkhan.com/blog/create-a-responsive-card-grid-in-angular-using-flex-layout-part-1/
+
 Edit manually:
 
 - styles.css for import themes
